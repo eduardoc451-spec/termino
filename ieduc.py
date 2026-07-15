@@ -427,79 +427,78 @@ def calcular_pontos_rotatividade(n1, n2, n3, n4, pmax=3):
     if total <= 0: return 0
     return ( (pmax * n1) + (2 * n2) + (1 * n3) + (0 * n4) ) / total
 
-        # =============================================================================
-        # 3. INTERFACE E ABAS
-        # =============================================================================
+# =============================================================================
+# 3. INTERFACE E ABAS
+# =============================================================================
 
-        def render_sidebar():
-                st.sidebar.title("🎓 Painel i-EDUC")
-                anos = [2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030]
-                ano_sel = st.sidebar.selectbox("Ano de Referência:", anos, key="ano_referencia_global")
-                
-                if st.session_state.get("limpeza_ativa", False):
-                        res_data = {}
-                else:
-                        res_data = load_respostas(ano_sel)
-                        
-                total_pts = sum(float(item.get("pontos", 0)) for k, item in res_data.items() if not k.startswith("COM_"))
-                total_pts = round(total_pts, 1)
-                
-                if total_pts <= 500: 
-                        faixa, cor = "C", "red"
-                elif total_pts <= 599: 
-                        faixa, cor = "C+", "orange"
-                elif total_pts <= 749: 
-                        faixa, cor = "B", "#d4d400"
-                elif total_pts <= 899: 
-                        faixa, cor = "B+", "lightgreen"
-                else: 
-                        faixa, cor = "A", "green"
-                        
-                st.sidebar.metric("Pontuação Total", f"{total_pts:.1f} pts")
-                st.sidebar.markdown(f"**Faixa:** <span style='color:{cor}; font-size:20px; font-weight:bold;'>{faixa}</span>", unsafe_allow_html=True)
-                
-                # 📄 SEÇÃO DE GERAR E BAIXAR RELATÓRIO PDF INTEGRADA
-                st.sidebar.markdown("---")
-                st.sidebar.subheader("📄 Relatórios")
-                
-                # 🔥 BUSCA HISTÓRICA BLINDADA DIRETO NO BANCO
-                historico_tratado = {}
+def render_sidebar():
+    st.sidebar.title("🎓 Painel i-EDUC")
+    anos = [2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030]
+    ano_sel = st.sidebar.selectbox("Ano de Referência:", anos, key="ano_referencia_global")
+    
+    if st.session_state.get("limpeza_ativa", False):
+        res_data = {}
+    else:
+        res_data = load_respostas(ano_sel)
+        
+    total_pts = sum(float(item.get("pontos", 0)) for k, item in res_data.items() if not k.startswith("COM_"))
+    total_pts = round(total_pts, 1)
+    
+    if total_pts <= 500: 
+        faixa, cor = "C", "red"
+    elif total_pts <= 599: 
+        faixa, cor = "C+", "orange"
+    elif total_pts <= 749: 
+        faixa, cor = "B", "#d4d400"
+    elif total_pts <= 899: 
+        faixa, cor = "B+", "lightgreen"
+    else: 
+        faixa, cor = "A", "green"
+        
+    st.sidebar.metric("Pontuação Total", f"{total_pts:.1f} pts")
+    st.sidebar.markdown(f"**Faixa:** <span style='color:{cor}; font-size:20px; font-weight:bold;'>{faixa}</span>", unsafe_allow_html=True)
+    
+    # 📄 SEÇÃO DE GERAR E BAIXAR RELATÓRIO PDF INTEGRADA
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("📄 Relatórios")
+    
+    # 🔥 BUSCA HISTÓRICA BLINDADA DIRETO NO BANCO
+    historico_tratado = {}
+    try:
+        with get_connection() as conn:
+            cursor = conn.execute("SELECT ano, id, pontos FROM respostas")
+            for row in cursor.fetchall():
                 try:
-                        with get_connection() as conn:
-                                cursor = conn.execute("SELECT ano, id, pontos FROM respostas")
-                                for row in cursor.fetchall():
-                                        try:
-                                                ano_db = int(str(row[0]).strip()[:4])
-                                                qid = row[1]
-                                                pontos_item = float(row[2]) if row[2] is not None else 0.0
-                                                
-                                                if ano_db not in historico_tratado:
-                                                        historico_tratado[ano_db] = {}
-                                                
-                                                historico_tratado[ano_db][qid] = {"pontos": pontos_item}
-                                        except:
-                                                continue
-                except Exception as e:
-                        st.sidebar.error(f"Erro ao processar histórico: {e}")
+                    ano_db = int(str(row[0]).strip()[:4])
+                    qid = row[1]
+                    pontos_item = float(row[2]) if row[2] is not None else 0.0
+                    
+                    if ano_db not in historico_tratado:
+                        historico_tratado[ano_db] = {}
+                    
+                    historico_tratado[ano_db][qid] = {"pontos": pontos_item}
+                except:
+                    continue
+    except Exception as e:
+        st.sidebar.error(f"Erro ao processar histórico: {e}")
 
-                st.session_state.all_data = historico_tratado
-                
-                # Botão da Sidebar protegido com a Lógica Inversa
-                st.sidebar.markdown("---")
-                if st.sidebar.button("🔄 Zerar Banco de Dados"):
-                        with get_connection() as conn:
-                                conn.execute("DELETE FROM respostas WHERE ano = ?", (ano_sel,))
-                                conn.commit()
-                        
-                        for chave in list(st.session_state.keys()):
-                                if chave.startswith(("q", "res", "com", "val", "data")): 
-                                        st.session_state.pop(chave, None)
-                        
-                        st.session_state["limpeza_ativa"] = True
-                        st.rerun()
-                        
-                return ano_sel, res_data, total_pts, faixa, cor
-
+    st.session_state.all_data = historico_tratado
+    
+    # Botão da Sidebar protegido com a Lógica Inversa
+    st.sidebar.markdown("---")
+    if st.sidebar.button("🔄 Zerar Banco de Dados"):
+        with get_connection() as conn:
+            conn.execute("DELETE FROM respostas WHERE ano = ?", (ano_sel,))
+            conn.commit()
+        
+        for chave in list(st.session_state.keys()):
+            if chave.startswith(("q", "res", "com", "val", "data")): 
+                st.session_state.pop(chave, None)
+        
+        st.session_state["limpeza_ativa"] = True
+        st.rerun()
+        
+    return ano_sel, res_data, total_pts, faixa, cor
 
         # =============================================================================
         # QUESTÃO 1.0 - OFERTA DE CRECHE (IEDUC)
