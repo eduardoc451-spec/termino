@@ -1,0 +1,590 @@
+{
+    "Gestão e Governança": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2004 Contribuição a Consórcios",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 1.0,
+                "F": 200000.0,
+                "G": 195600.0
+            }
+        ]
+    },
+    "Cidade Solidária": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    },
+    "Gestão do Jurídico e da Cidadania": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    },
+    "Desenvolvimento Econômico": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    },
+    "Gestão orçamentária, administrativa e fiscal": {
+        "acoes": [
+            {
+                "nome": "0001 Amortização e Encargos da Dívida Contratada",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 3.0,
+                "F": 8702158.77,
+                "G": 8702156.13
+            },
+            {
+                "nome": "0002 Pagamento de Precatórios e Sentenças Judiciais Diversas",
+                "unidade": "Unidade / Mensurável",
+                "C": 100.0,
+                "D": 100.0,
+                "F": 3230000.0,
+                "G": 3108863.94
+            },
+            {
+                "nome": "0003 Contribuição ao PASEP",
+                "unidade": "Unidade / Mensurável",
+                "C": 100.0,
+                "D": 100.0,
+                "F": 2775200.0,
+                "G": 2775151.64
+            },
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2005 Previdência a Vereadores",
+                "unidade": "Unidade / Mensurável",
+                "C": 20.0,
+                "D": 19.0,
+                "F": 1225700.0,
+                "G": 1225698.5
+            }
+        ]
+    },
+    "Desenvolvimento Urbano Sustentável": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1005 Pavimentação, Recapeamento, Conservação, Obras Complementares e Dreneagem em vias",
+                "unidade": "Unidade / Mensurável",
+                "C": 20.0,
+                "D": 15.0,
+                "F": 112494800.0,
+                "G": 28661074.59
+            },
+            {
+                "nome": "1006 Canalização e Manutenção de Córregos, Canais e Ribeirões",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1013 Obra de Arte Especial",
+                "unidade": "Unidade / Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2006 Coleta, Tratamento e Destinação Final do Lixo Domiciliar/Hospitalar",
+                "unidade": "Unidade / Mensurável",
+                "C": 50000.0,
+                "D": 54481.0,
+                "F": 27285000.0,
+                "G": 26350213.8
+            },
+            {
+                "nome": "2007 Ampliação, Conservação e Funcionamento da Iluminação Pública",
+                "unidade": "Unidade / Mensurável",
+                "C": 11100.0,
+                "D": 12000.0,
+                "F": 7358000.0,
+                "G": 7102780.23
+            },
+            {
+                "nome": "2025 Conservação e Funcionamernto dos Serviços e Trânsito municipal",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2033 Conservação e Funcionamento a Defesa Civil",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2034 Conservação e Funcionamento da Habitação",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2036 Conservação e Manutenção de Praças e Parques",
+                "unidade": "Unidade / Mensurável",
+                "C": 1950000.0,
+                "D": 1920000.0,
+                "F": 5000000.0,
+                "G": 4936486.79
+            },
+            {
+                "nome": "1003 Construções, Amplaições e Reformas em Edificações Públicas",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 19.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    },
+    "Educação com Equidade e Qualidade": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1007 Construções, Ampliações e Reformas em Unidades de Educação Infantil",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1008 Construções, Ampliações e Reformas em Unidades de Ensino Fundamental",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2008 Conservação e Funcionamento da Educação Infantil",
+                "unidade": "Unidade / Mensurável",
+                "C": 9890.0,
+                "D": 8519.0,
+                "F": 116132048.98,
+                "G": 108935833.47
+            },
+            {
+                "nome": "2009 Conservação e Funcionamento do Ensino Fundamental",
+                "unidade": "Unidade / Mensurável",
+                "C": 13915.0,
+                "D": 12190.0,
+                "F": 122196402.26,
+                "G": 113288558.68
+            },
+            {
+                "nome": "2010 Transporte de Alunos do Ensino Fundamental",
+                "unidade": "Unidade / Mensurável",
+                "C": 3500.0,
+                "D": 3564.0,
+                "F": 14374384.59,
+                "G": 13590715.81
+            },
+            {
+                "nome": "2013 Conservação e Funcionamento da Merenda Escolar",
+                "unidade": "Unidade / Mensurável",
+                "C": 23805.0,
+                "D": 20951.0,
+                "F": 17572007.93,
+                "G": 16532351.13
+            }
+        ]
+    },
+    "Esporte, Lazer e Qualidade de Vida": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1009 Construções, Ampliações e Reformas de Unidades Esportivas, de Turismo e Lazer",
+                "unidade": "Unidade / Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1009 Construções, Ampliações e Reformas de Unidades Esportivas, de Turismo e Lazer",
+                "unidade": "Unidade / Mensurável",
+                "C": 3.0,
+                "D": 6.0,
+                "F": 7179580.0,
+                "G": 1303448.5
+            }
+        ]
+    },
+    "Cultura e Cidadania": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1010 Construções, Ampliações e Reformas de Unidades Culturais",
+                "unidade": "Unidade / Mensurável",
+                "C": 2.0,
+                "D": 1.0,
+                "F": 5000.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2015 Conservação e Funcionamento dos Serviços Culturais",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2046 Fomentos e Estímulos a Cultura",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 7.0,
+                "F": 1235000.0,
+                "G": 164300.0
+            }
+        ]
+    },
+    "Gestão do Sistema único de Assistência Social SUAS": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1011 Construções, Ampliações e Reformas de Unidades Sociais",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 5.0,
+                "F": 3000.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2017 Conservação e Funcionamento dos Serviços de Atenção as crianças e adolescentes",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 1.0,
+                "F": 426500.0,
+                "G": 88447.29
+            },
+            {
+                "nome": "2018 Conservação e Funcionamento dos Serviços de Atenção aos Idosos",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 1.0,
+                "F": 35000.0,
+                "G": 938.8
+            },
+            {
+                "nome": "2019 Conservação e Funciomaneto dos Serviços Sociais",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2026 Proteção Social Básica",
+                "unidade": "Unidade / Mensurável",
+                "C": 12000.0,
+                "D": 3263.0,
+                "F": 1093047.39,
+                "G": 611812.74
+            },
+            {
+                "nome": "2028 Proteção Social e Especial de Alta Complexidade",
+                "unidade": "Unidade / Mensurável",
+                "C": 300.0,
+                "D": 616.0,
+                "F": 5533684.65,
+                "G": 5244324.11
+            },
+            {
+                "nome": "2029 índice de Gestão Descentralizada - IGD SUAS",
+                "unidade": "Unidade / Mensurável",
+                "C": 6.0,
+                "D": 0.0,
+                "F": 2000.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2030 Controle Social - CMAS",
+                "unidade": "Unidade / Mensurável",
+                "C": 1.0,
+                "D": 1.0,
+                "F": 60500.0,
+                "G": 42830.0
+            },
+            {
+                "nome": "2031 Política Complementar de Segurança Alimentar e Nutricional",
+                "unidade": "Unidade / Mensurável",
+                "C": 5470.0,
+                "D": 369095.0,
+                "F": 2462200.0,
+                "G": 2208237.01
+            },
+            {
+                "nome": "2032 - Conselho Tutelar",
+                "unidade": "Unidade / Mensurável",
+                "C": 2.0,
+                "D": 2.0,
+                "F": 71000.0,
+                "G": 48674.47
+            },
+            {
+                "nome": "2035 Índice de Gestão Descentralizada - IGD PAB",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2037 Enfrentamento a COVID 19",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2042 Beneficios Eventuais",
+                "unidade": "Unidade / Mensurável",
+                "C": 390.0,
+                "D": 232.0,
+                "F": 453115.76,
+                "G": 243877.92
+            },
+            {
+                "nome": "2047 Vigilancia Socioassistencial",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2048 Educação Permanente ",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2027 Proteção Social Especial Média Complexidade",
+                "unidade": "Unidade / Mensurável",
+                "C": 1200.0,
+                "D": 4085.0,
+                "F": 1502283.47,
+                "G": 1016100.82
+            }
+        ]
+    },
+    "Cidade Segura, Inclusiva, Resiliente e Sustentável": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2025 Conservação e Funcionamento dos Serviços de Trânsito Municipal",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2033 Conservação e Funcionamento da Defesa Civil",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2045  Conservação e Funciomaneto da GCM",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "1012 Conservação e Manutenção de Áreas de Risco",
+                "unidade": "Unidade / Mensurável",
+                "C": 0.0,
+                "D": 11.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    },
+    "Gestão Integrada Urbana Sustentável": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    },
+    "Controle Interno": {
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0,
+                "F": 0.0,
+                "G": 0.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,971 @@
+{
+    "GESTÃO E GOVERNANÇA": {
+        "indicadores": [
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal",
+                "A": 75.0,
+                "B": 59.9
+            },
+            {
+                "nome": "Número mensal de acessos ao Portal de Transparência",
+                "A": 25000.0,
+                "B": 16800.0
+            },
+            {
+                "nome": "Quantidade de canais de comunicação e divulgação das ações governamentais",
+                "A": 7.0,
+                "B": 10.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "⚠️ Invalidador / Não Mensurável",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1003 Construções, Ampliações, Reformas, Adaptação e ampliação do prédio do Legislativo ",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 8.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2004 Contribuição a Consórcios",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 1.0
+            }
+        ]
+    },
+    "CIDADE SOLIDÁRIA": {
+        "indicadores": [
+            {
+                "nome": "Famílias atendidas no fundo Social de Solidariedade",
+                "A": 750.0,
+                "B": 2597.0
+            },
+            {
+                "nome": "Número de idosos atendidos no fundo Social de Solidariedade",
+                "A": 250.0,
+                "B": 1220.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "GESTÃO DO JURÍDICO E DA CIDADANIA": {
+        "indicadores": [
+            {
+                "nome": "Departamento Atendido",
+                "A": 0.0,
+                "B": 0.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "DESENVOLVIMENTO ECONÔMICO": {
+        "indicadores": [
+            {
+                "nome": "Departamento Atendido",
+                "A": 0.0,
+                "B": 0.0
+            },
+            {
+                "nome": "Abertura de novas empresas",
+                "A": 11700.0,
+                "B": 452.0
+            },
+            {
+                "nome": "Fiscalização nas empresas e comércios",
+                "A": 620.0,
+                "B": 735.0
+            },
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal (I-EGM Fiscal)",
+                "A": 75.0,
+                "B": 49.9
+            },
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal (I-EGM Planejamento)",
+                "A": 75.0,
+                "B": 74.9
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "GESTÃO ORÇAMENTÁRIA, ADMINISTRATIVA E FISCAL": {
+        "indicadores": [
+            {
+                "nome": "Departamento Atendido",
+                "A": 0.0,
+                "B": 0.0
+            },
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal (I-EGM Fiscal)",
+                "A": 75.0,
+                "B": 74.9
+            },
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal (I-EGM GOV TI)",
+                "A": 75.0,
+                "B": 89.9
+            },
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal (I-EGM Planejamento)",
+                "A": 75.0,
+                "B": 49.9
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "0001 Amortização e Encargos da Dívida Contratada",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Percentual (%)",
+                "C": 1.0,
+                "D": 3.0
+            },
+            {
+                "nome": "0002 Pagamento de Precatórios e Sentenças Judiciais Diversas",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Percentual (%)",
+                "C": 100.0,
+                "D": 100.0
+            },
+            {
+                "nome": "0003 Contribuição ao PASEP",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Percentual (%)",
+                "C": 100.0,
+                "D": 100.0
+            },
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2005 Previdência a Vereadores",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "DESENVOLVIMENTO URBANO SUSTENTÁVEL": {
+        "indicadores": [
+            {
+                "nome": "Déficit de vias pavimentadas",
+                "A": 20.0,
+                "B": 15.0
+            },
+            {
+                "nome": "Mortes no trânsito (INFOSIGA-SP)",
+                "A": 0.0,
+                "B": 0.0
+            },
+            {
+                "nome": "Índice de Efetividade da Gestão Municipal (I-EGM Cidade)",
+                "A": 90.0,
+                "B": 89.9
+            },
+            {
+                "nome": "Coleta seletiva de residuos sólidos",
+                "A": 0.0,
+                "B": 12057.0
+            },
+            {
+                "nome": "Déficit de iluminação pública/ pontos luminosos",
+                "A": 11100.0,
+                "B": 12000.0
+            },
+            {
+                "nome": "Frota do Transporte Coletivo Adaptado (percentual)",
+                "A": 100.0,
+                "B": 100.0
+            },
+            {
+                "nome": "Numero de castrações de cães e gatos",
+                "A": 0.0,
+                "B": 0.0
+            },
+            {
+                "nome": "Revitalização de praças e vielas",
+                "A": 40.0,
+                "B": 68.0
+            },
+            {
+                "nome": "indlce de Eíe1lvldade de Gestão Municipal (1-EGM AMB)",
+                "A": 75.0,
+                "B": 49.9
+            },
+            {
+                "nome": "lndlce de atendimento urbano de esgoto (SEADE)",
+                "A": 95.4,
+                "B": 80.4
+            },
+            {
+                "nome": "lndlce de esgoto tratado (SEADE)",
+                "A": 70.0,
+                "B": 2.3
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1003 Construções, Amplaições e Reformas em Edificações Públicas",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 19.0
+            },
+            {
+                "nome": "1005 Pavimentação, Recapeamento, Conservação, Obras Complementares e Dreneagem em vias",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Percentual (%)",
+                "C": 20.0,
+                "D": 15.0
+            },
+            {
+                "nome": "1006 Canalização e Manutenção de Córregos, Canais e Ribeirões",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1013 Obra de Arte Especial",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2006 Coleta, Tratamento e Destinação Final do Lixo Domiciliar/Hospitalar",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 50000.0,
+                "D": 54481.0
+            },
+            {
+                "nome": "2007 Ampliação, Conservação e Funcionamento da Iluminação Pública",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 11100.0,
+                "D": 12000.0
+            },
+            {
+                "nome": "2025 Conservação e Funcionamernto dos Serviços e Trânsito municipal",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2033 Conservação e Funcionamento a Defesa Civil",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2034 Conservação e Funcionamento da Habitação",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2036 Conservação e Manutenção de Praças e Parques",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Metro Quadrado (m²)",
+                "C": 1950000.0,
+                "D": 1920000.0
+            }
+        ]
+    },
+    "EDUCAÇÃO COM EQUIDADE E QUALIDADE": {
+        "indicadores": [
+            {
+                "nome": "Alunos com Atendimento Educacional Especializado (AEE)",
+                "A": 340.0,
+                "B": 503.0
+            },
+            {
+                "nome": "Alunos matriculados na rede municipal - Ensino Fundamental",
+                "A": 13915.0,
+                "B": 12190.0
+            },
+            {
+                "nome": "Alunos malrlculados na rede municipal - Pré-escola",
+                "A": 4690.0,
+                "B": 4478.0
+            },
+            {
+                "nome": "Escolas com programas em tempo integral (Ensino Fundamental 1)",
+                "A": 65.0,
+                "B": 60.0
+            },
+            {
+                "nome": "Indicador nutricional (resto Ingestão)/ percentual",
+                "A": 10.0,
+                "B": 12.0
+            },
+            {
+                "nome": "Número de alunos beneficiados pelo Programa de Alimentação Escolar.",
+                "A": 23805.0,
+                "B": 20951.0
+            },
+            {
+                "nome": "30 lndlce de Eletividade da Geslllo Municipal (I-EGM Edllcação)",
+                "A": 75.0,
+                "B": 59.9
+            },
+            {
+                "nome": "Alunos em atividade complementar (contrawrno)",
+                "A": 1300.0,
+                "B": 1709.0
+            },
+            {
+                "nome": "Alunos matriculados na rede municipal • Creche",
+                "A": 5200.0,
+                "B": 4041.0
+            },
+            {
+                "nome": "Alunos matriculados na rede municipal - EJA",
+                "A": 760.0,
+                "B": 265.0
+            },
+            {
+                "nome": "Indica de Desenvolvimento da Educação Básica - IDEB nos anos Iniciais do Ensino MÉDIA Fundamental",
+                "A": 7.0,
+                "B": 5.9
+            },
+            {
+                "nome": "Indica de aprendizado em Matemalica / média proficiência Prova Brasil",
+                "A": 240.0,
+                "B": 220.65
+            },
+            {
+                "nome": "Indica de aprendizado em Português/ média proficiência Prova Brasil",
+                "A": 230.0,
+                "B": 204.82
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1007 Construções, Ampliações e Reformas em Unidades de Educação Infantil",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1008 Construções, Ampliações e Reformas em Unidades de Ensino Fundamental",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2008 Conservação e Funcionamento da Educação Infantil",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Aluno",
+                "C": 9890.0,
+                "D": 8519.0
+            },
+            {
+                "nome": "2009 Conservação e Funcionamento do Ensino Fundamental",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Aluno",
+                "C": 13915.0,
+                "D": 12190.0
+            },
+            {
+                "nome": "2010 Transporte de Alunos do Ensino Fundamental",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Aluno",
+                "C": 3500.0,
+                "D": 3564.0
+            },
+            {
+                "nome": "2013 Conservação e Funcionamento da Merenda Escolar",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Aluno",
+                "C": 23805.0,
+                "D": 20951.0
+            }
+        ]
+    },
+    "ESPORTE, LAZER E QUALIDADE DE VIDA": {
+        "indicadores": [
+            {
+                "nome": "Número de Centros Esportivos",
+                "A": 6.0,
+                "B": 9.0
+            },
+            {
+                "nome": "Número de modalidades esportivas ofertadas",
+                "A": 35.0,
+                "B": 34.0
+            },
+            {
+                "nome": "Número de cidadãos Idosos atendidos",
+                "A": 2500.0,
+                "B": 3015.0
+            },
+            {
+                "nome": "Número de crianças, adolescentes e Jovens atendidos",
+                "A": 7000.0,
+                "B": 7109.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1009 Construções, Ampliações e Reformas de Unidades Esportivas, de Turismo e Lazer",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 3.0,
+                "D": 1.0
+            },
+            {
+                "nome": "2014 Conservação e Funcionamento dos Serviços de Esportes, Lazer e Turismo",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "CULTURA E CIDADANIA": {
+        "indicadores": [
+            {
+                "nome": "Apoiar projetos culturais/ ofioinelros",
+                "A": 20.0,
+                "B": 21.0
+            },
+            {
+                "nome": "Número de Equipamentos Culturais",
+                "A": 3.0,
+                "B": 4.0
+            },
+            {
+                "nome": "Número de alunos nas Oficinas Culturais",
+                "A": 1300.0,
+                "B": 1300.0
+            },
+            {
+                "nome": "Lançar editais de fomento cultural",
+                "A": 5.0,
+                "B": 7.0
+            },
+            {
+                "nome": "Número de livros no acervo da Secretaria de Cutlura e Turismo",
+                "A": 12000.0,
+                "B": 12000.0
+            },
+            {
+                "nome": "Visilantes nos equipamentos culturais",
+                "A": 50000.0,
+                "B": 60000.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1010 Construções, Ampliações e Reformas de Unidades Culturais",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 2.0,
+                "D": 1.0
+            },
+            {
+                "nome": "2015 Conservação e Funcionamento dos Serviços Culturais",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2046 Fomentos e Estímulos a Cultura",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 7.0
+            }
+        ]
+    },
+    "GESTÃO DO SISTEMA UNICO DE ASSISTENCIA SOCIAL - SUAS": {
+        "indicadores": [
+            {
+                "nome": "Adolescentes em Cumprimento de Medidas Sócio-Educativas (LA e ou PSC)",
+                "A": 480.0,
+                "B": 401.0
+            },
+            {
+                "nome": "Beneficio de Preslaçêo Continuada • Idoso",
+                "A": 1485.0,
+                "B": 2238.0
+            },
+            {
+                "nome": "Beneficio de Prestação Continuada • PCD USUÁRIO",
+                "A": 1403.0,
+                "B": 2238.0
+            },
+            {
+                "nome": "Benefícios Eventuais",
+                "A": 390.0,
+                "B": 232.0
+            },
+            {
+                "nome": "Familias beneficiárias - Programa Bolsa Familia",
+                "A": 15000.0,
+                "B": 12807.0
+            },
+            {
+                "nome": "Programa Criança Feliz",
+                "A": 200.0,
+                "B": 0.0
+            },
+            {
+                "nome": "Rede Socloassistencial Privada • Organização da Sociedade Clvíl (OSC)",
+                "A": 300.0,
+                "B": 1589.0
+            },
+            {
+                "nome": "Serviço de Convivência e Fortalecimento de Vlnculos. SCFV",
+                "A": 1140.0,
+                "B": 1079.0
+            },
+            {
+                "nome": "Serviço de Proteção e Atendimento Especlalízado a Famllias e Indivíduos - PAEFI",
+                "A": 1200.0,
+                "B": 4085.0
+            },
+            {
+                "nome": "Familias cadastradas - Cadastro Único",
+                "A": 35000.0,
+                "B": 37069.0
+            },
+            {
+                "nome": "Quantidade de Pessoas em Situação de Rua no CadÚnlco",
+                "A": 250.0,
+                "B": 164.0
+            },
+            {
+                "nome": "Segurança Alimentar e Nutricional",
+                "A": 5200.0,
+                "B": 369095.0
+            },
+            {
+                "nome": "Serviço da Proteção a Atendimento Integral a Famflla. PAIF",
+                "A": 12000.0,
+                "B": 3263.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1011 Construções, Ampliações e Reformas de Unidades Sociais",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 5.0
+            },
+            {
+                "nome": "2017 Conservação e Funcionamento dos Serviços de Atenção as crianças e adolescentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 1.0
+            },
+            {
+                "nome": "2018 Conservação e Funcionamento dos Serviços de Atenção aos Idosos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 1.0,
+                "D": 1.0
+            },
+            {
+                "nome": "2019 Conservação e Funciomaneto dos Serviços Sociais",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2026 Proteção Social Básica",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 12000.0,
+                "D": 3263.0
+            },
+            {
+                "nome": "2027 Proteção Social Especial Média Complexidade",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 1200.0,
+                "D": 4085.0
+            },
+            {
+                "nome": "2028 Proteção Social e Especial de Alta Complexidade",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 300.0,
+                "D": 616.0
+            },
+            {
+                "nome": "2029 índice de Gestão Descentralizada - IGD SUAS",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 6.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2030 Controle Social - CMAS",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 1.0,
+                "D": 1.0
+            },
+            {
+                "nome": "2031 Política Complementar de Segurança Alimentar e Nutricional",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 5470.0,
+                "D": 5470.0
+            },
+            {
+                "nome": "2032 - Conselho Tutelar",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 2.0,
+                "D": 2.0
+            },
+            {
+                "nome": "2035 Índice de Gestão Descentralizada - IGD PAB",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2037 Enfrentamento a COVID 19",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2042 Beneficios Eventuais",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Família",
+                "C": 390.0,
+                "D": 232.0
+            },
+            {
+                "nome": "2047 Vigilancia Socioassistencial",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2048 Educação Permanente ",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "CIDADE SEGURA, INCLUSIVA, RESILIENTE E SUSTENTÁVEL": {
+        "indicadores": [
+            {
+                "nome": "Quantidade de Intervenções realizadas em áreas de riscos",
+                "A": 22.0,
+                "B": 13.0
+            },
+            {
+                "nome": "Indica de Efetividade de Geslao Municipal",
+                "A": 75.0,
+                "B": 49.9
+            },
+            {
+                "nome": "Indica de Efetividade da Gestão Municipal (1-EGM Cidade)",
+                "A": 90.0,
+                "B": 89.9
+            },
+            {
+                "nome": "Mortes no trânsito (INFOSIGA-SP)",
+                "A": 9.0,
+                "B": 1.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "1012 Conservação e Manutenção de Áreas de Risco",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Unidade",
+                "C": 0.0,
+                "D": 11.0
+            },
+            {
+                "nome": "2025 Conservação e Funcionamento dos Serviços de Trânsito Municipal",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2033 Conservação e Funcionamento da Defesa Civil",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2045  Conservação e Funciomaneto da GCM",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "COLETA SELETIVA RESIOUOS SÓLIDOS (PGRNS)": {
+        "indicadores": [
+            {
+                "nome": "COLETA SELETIVA RESIOUOS SÓLIDOS (PGRNS)",
+                "A": 100.0,
+                "B": 100.0
+            },
+            {
+                "nome": "NÚMERO AUXILIO ALUGUEL (PDHS)",
+                "A": 120.0,
+                "B": 88.0
+            },
+            {
+                "nome": "NÚMERO OE CASTRAÇÃO E IDENTIFICAÇÃO OE CÃES E GATOS (PBEA)",
+                "A": 1900.0,
+                "B": 751.0
+            },
+            {
+                "nome": "NÚMERO OE LICENCIAMENTO AMBIENTAL- BAIXO E MÉDIO IMPACTO (PGRNS)",
+                "A": 20.0,
+                "B": 169.0
+            },
+            {
+                "nome": "NÚMERO OE OCORRENCIAS / MCE",
+                "A": 24.0,
+                "B": 15.0
+            },
+            {
+                "nome": "OCORRENCIAS OE CAPTURA OE ANIMAIS SILVESTRES (PBEA)",
+                "A": 100.0,
+                "B": 100.0
+            },
+            {
+                "nome": "QUANTIDADE DE AÇÕES DE EDUCAÇÃO AMBIENTAL (PEA)",
+                "A": 24.0,
+                "B": 15.0
+            },
+            {
+                "nome": "QUANTIDADE DE CONSTRUÇÃO DE HIS",
+                "A": 700.0,
+                "B": 0.0
+            },
+            {
+                "nome": "RF. MORATO, MEU LAR LEGAL (PDHS)",
+                "A": 400.0,
+                "B": 341.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    },
+    "CONTROLE INTERNO": {
+        "indicadores": [
+            {
+                "nome": "Número de Acessos ao Portal da Transparência ",
+                "A": 100.0,
+                "B": 92.0
+            },
+            {
+                "nome": "Número de Ações do Controle Externo - TCE SP",
+                "A": 100.0,
+                "B": 90.0
+            },
+            {
+                "nome": "Percentual de Recomendações Implementadas ",
+                "A": 100.0,
+                "B": 95.0
+            },
+            {
+                "nome": "Percentual de Respostas da Ouvidoria dentro do Prazo E-SIC",
+                "A": 50.0,
+                "B": 80.0
+            },
+            {
+                "nome": "Número de Auditorias Realizadas ",
+                "A": 50.0,
+                "B": 50.0
+            },
+            {
+                "nome": "Número de Ações e Fiscalização de Serviços ao Usuário ",
+                "A": 50.0,
+                "B": 50.0
+            },
+            {
+                "nome": "Número de Ações e Fiscalização do E-SIC",
+                "A": 75.0,
+                "B": 75.0
+            },
+            {
+                "nome": "Número de Ações  e Fiscalização ao Portal da  Transparência",
+                "A": 100.0,
+                "B": 92.0
+            }
+        ],
+        "acoes": [
+            {
+                "nome": "1001 Aquisição de Materiais Permanentes",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            },
+            {
+                "nome": "2002 Conservação e Funcionamento dos Serviços Administrativos",
+                "grupo": "Exemplos TCE-SP",
+                "unidade": "Não Mensurável",
+                "C": 0.0,
+                "D": 0.0
+            }
+        ]
+    }
+}
