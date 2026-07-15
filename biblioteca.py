@@ -16,6 +16,7 @@ PASTAS_PRINCIPAIS = [
     "relatorios tce",
     "leis e decretos",
     "provas fotográficas",
+    "Planos Municipais",
     "diversos"
 ]
 
