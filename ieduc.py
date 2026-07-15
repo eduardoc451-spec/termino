@@ -487,7 +487,6 @@ def render_sidebar():
         st.sidebar.error(f"Erro ao processar histórico: {e}")
 
     st.session_state.all_data = historico_tratado
-
     )
     
     # Botão da Sidebar protegido com a Lógica Inversa
