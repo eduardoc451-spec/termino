@@ -902,7 +902,7 @@ def gerar_relatorio_pdf(dados_brutos, ano, total, faixa, all_data=None):
         elements.append(Spacer(1, 15))
 
     # -------------------------------------------------------------------------
-    # 📊 6. SÉRIE HISTÓRICA DO I-EDUC
+    # 📊 6. SÉRIE HISTÓRICA DO I-EDUC (CORRIGIDA)
     # -------------------------------------------------------------------------
     elements.append(Spacer(1, 10))
 
@@ -918,31 +918,25 @@ def gerar_relatorio_pdf(dados_brutos, ano, total, faixa, all_data=None):
                 valores_serie.append(float(dados_ano["total"]))
             elif isinstance(dados_ano, (int, float)):
                 valores_serie.append(float(dados_ano))
-            else:
-                valores_serie.append(float(sum(info_h.get("pontos", 0) for qid_h, info_h in dados_ano.items() if isinstance(info_h, dict) and not qid_h.startswith("COM_"))))
+            elif isinstance(dados_ano, dict):
+                # SOMA APENAS QUESITOS QUE NÃO SÃO PENALIDADES E NÃO SÃO COMENTÁRIOS!
+                soma_segura = 0.0
+                for qid_h, info_h in dados_ano.items():
+                    if qid_h.startswith("COM_") or qid_h in PENALIDADES_LOCAL:
+                        continue  # Ignora comentários e penalidades na soma bruta para não negativar a nota
+                    
+                    if isinstance(info_h, dict):
+                        soma_segura += float(info_h.get("pontos", 0))
+                    else:
+                        try:
+                            soma_segura += float(info_h)
+                        except (ValueError, TypeError):
+                            continue
+                valores_serie.append(soma_segura)
+            else: 
+                valores_serie.append(0.0)
         else: 
             valores_serie.append(0.0)
-
-    desenho_grafico = Drawing(480, 165)
-    bc = VerticalBarChart()
-    bc.x = 45; bc.y = 25; bc.height = 110; bc.width = 410
-    bc.data = [valores_serie]
-    bc.categoryAxis.categoryNames = [str(a) for a in anos_serie]
-    bc.categoryAxis.labels.fontSize = 9; bc.categoryAxis.labels.fontName = 'Helvetica-Bold'; bc.categoryAxis.labels.dy = -10
-    bc.valueAxis.valueMin = 0; bc.valueAxis.valueMax = 1000; bc.valueAxis.valueStep = 200; bc.valueAxis.labels.fontSize = 8
-    
-    bc.barLabels.nudge = 8; bc.barLabels.fontSize = 8; bc.barLabels.fontName = 'Helvetica-Bold'; bc.barLabelFormat = '%.1f'
-    bc.bars[0].fillColor = colors.HexColor("#0f9d58"); bc.bars[0].strokeColor = colors.HexColor("#27ae60"); bc.bars[0].strokeWidth = 0.5
-
-    desenho_grafico.add(String(240, 150, "Série Histórica do i-EDUC", textAnchor='middle', fontName='Helvetica-Bold', fontSize=12, fillColor=colors.HexColor("#2c3e50")))
-    desenho_grafico.add(bc)
-    
-    elements.append(desenho_grafico)
-
-    doc.build(elements)
-    buffer.seek(0)
-    return buffer
-
 # =============================================================================
 # 3. INTERFACE E ABAS
 # =============================================================================
