@@ -1051,7 +1051,7 @@ def mostrar_formulario_gov():
                 chave_radio_10 = f"r_10_{v_salvo_10}_{ano_sel}"
 
                 def cb_radio_10():
-                    val = st.session_state[chave_radio_10]
+                    val = st.session_state.get(chave_radio_10, "Não")
                     pts = 30.0 if "Sim" in val else 0.0
                     lnk = st.session_state.get(f"l_10_txt_{ano_sel}", d10.get("link", ""))
                     
