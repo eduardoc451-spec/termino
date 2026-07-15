@@ -427,10 +427,6 @@ def calcular_pontos_rotatividade(n1, n2, n3, n4, pmax=3):
     if total <= 0: return 0
     return ( (pmax * n1) + (2 * n2) + (1 * n3) + (0 * n4) ) / total
 
-import copy
-from io import BytesIO
-# Certifique-se de manter os demais imports do ReportLab ativos no topo do arquivo
-
 # =============================================================================
 # 3. INTERFACE E ABAS
 # =============================================================================
@@ -487,7 +483,6 @@ def render_sidebar():
         st.sidebar.error(f"Erro ao processar histórico: {e}")
 
     st.session_state.all_data = historico_tratado
-    )
     
     # Botão da Sidebar protegido com a Lógica Inversa
     st.sidebar.markdown("---")
@@ -504,42 +499,6 @@ def render_sidebar():
         st.rerun()
         
     return ano_sel, res_data, total_pts, faixa, cor
-
-
-def mostrar_formulario_educ():
-    init_db()
-    
-    if "limpeza_ativa" in st.session_state:
-        st.session_state.pop("limpeza_ativa", None)
-        
-    ano_sel, res_data, total_pts, faixa, cor = render_sidebar()
-    st.markdown("""<style>.quesito-card { background-color: #f9f9f9; padding: 20px; border-left: 6px solid #1e88e5; border-radius: 8px; margin-bottom: 20px; border: 1px solid #e3f2fd; }</style>""", unsafe_allow_html=True)
-    
-    st.title(f"📚 Auditoria i-EDUC - {ano_sel}")
-    
-    # 🔴 BOTÃO DE LIMPAR EM BRANCO NA TELA (MÉTODO BLINDADO MANTIDO)
-    col_btn, _ = st.columns([1, 3])
-    with col_btn:
-        if st.button("🗑️ Limpar Todos os Campos", type="primary", use_container_width=True):
-            with get_connection() as conn:
-                conn.execute("DELETE FROM respostas WHERE ano = ?", (ano_sel,))
-                conn.commit()
-            
-            # 🔥 Limpa estritamente as chaves de dados das perguntas do questionário
-            for chave in list(st.session_state.keys()):
-                if chave.startswith(("q", "res", "com", "val", "data")):
-                    st.session_state.pop(chave, None)
-            
-            st.session_state["limpeza_ativa"] = True
-            st.rerun()
-    
-    abas = st.tabs(["📝 Questionário", "📊 Dados Externos", "📈 Gráficos"])
-    aba_questionario, aba_dados_externos, aba_graf = abas
-    
-    opc_sim_nao = ["", "Sim", "Não"]
-    
-    with aba_questionario:
-        st.header("1.0 Diretrizes e Avaliação de Creches")
 
 
         # =============================================================================
