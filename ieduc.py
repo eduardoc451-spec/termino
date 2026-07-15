@@ -1772,7 +1772,7 @@ def mostrar_formulario_educ():
                     pts_calculados = 0.0
                     
                 str_valor_novo = f"F1:{int_f1},F2:{int_f2},F3:{int_f3},F4:{int_f4}"
-                link_atual = st.session_state[key_link_13]
+                link_atual = st.session_state.get(key_link_13, None)
                 
                 if str_valor_novo != v_banco_13 or link_atual != v_link_13 or v_pontos_13 != pts_calculados:
                     if link_atual != v_link_13:
