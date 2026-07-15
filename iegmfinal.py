@@ -247,8 +247,8 @@ def mostrar_painel_iegm_final(ano_selecionado):
         return "color: #64748b;"
 
     df_estilizado = df_historico.style\
-        .applymap(colorir_faixa, subset=["Faixa"])\
-        .applymap(colorir_variacao, subset=["Variação %"])\
+        .map(colorir_faixa, subset=["Faixa"])\
+        .map(colorir_variacao, subset=["Variação %"])\
         .set_properties(**{'text-align': 'center'})\
         .set_properties(subset=["Nota Final"], **{'background-color': '#f1f5f9', 'font-weight': 'bold', 'color': '#1e293b'})
 
