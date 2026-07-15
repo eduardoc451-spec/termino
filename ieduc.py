@@ -6,16 +6,6 @@ from io import BytesIO
 from datetime import datetime, date
 
 # =============================================================================
-# BIBLIOTECAS PARA O PDF (ReportLab)
-# =============================================================================
-from reportlab.lib.pagesizes import A4
-from reportlab.graphics.shapes import Drawing, String
-from reportlab.graphics.charts.barcharts import VerticalBarChart
-from reportlab.lib import colors
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Image, PageBreak
-
-# =============================================================================
 # BIBLIOTECAS PARA OS GRÁFICOS (Plotly)
 # =============================================================================
 import plotly.graph_objects as go
@@ -498,14 +488,6 @@ def render_sidebar():
 
     st.session_state.all_data = historico_tratado
 
-    pdf_buffer = gerar_relatorio_pdf(res_data, ano_sel, total_pts, faixa, historico_tratado)
-    
-    st.sidebar.download_button(
-        label="📥 Baixar Relatório PDF",
-        data=pdf_buffer.getvalue(),
-        file_name=f"Relatorio_i-Educ_{ano_sel}.pdf",
-        mime="application/pdf",
-        use_container_width=True
     )
     
     # Botão da Sidebar protegido com a Lógica Inversa
